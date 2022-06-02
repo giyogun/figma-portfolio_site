@@ -1,6 +1,5 @@
 .navbar {
   margin: 0 5rem;
-  /* width: 1196px; */
 }
 
 .navbar-container {
@@ -10,10 +9,10 @@
   justify-content: space-between;
   align-items: center;
   padding-top: 20px;
-  /* background-color: blue; */
 }
 
 .logo {
+  align-self: flex-start;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -24,8 +23,9 @@
   height: 25px;
   width: 25px;
   border: 1px solid #fff;
-  text-align: center;
-  /* padding: 5px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo-main span {
@@ -50,7 +50,6 @@
   justify-content: center;
   align-items: flex-start;
   padding: 0px;
-  /* align-self: flex-start; */
 }
 
 .login {
@@ -68,9 +67,9 @@
   width: 90px;
   height: 40px;
   margin-left: 20px;
-  /* background-color: #fff; */
   color: #fff;
   border: none;
+  cursor: pointer;
 }
 
 .contact {
@@ -80,4 +79,16 @@
   color: #fff;
   list-style: none;
   margin-left: 10px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 450px) {
+  .nav-links {
+    display: none;
+  }
+
+  .navbar-container {
+    justify-content: center;
+    align-items: center;
+  }
 }

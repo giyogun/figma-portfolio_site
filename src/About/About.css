@@ -1,7 +1,6 @@
 .about {
   margin: 0 5rem;
   margin-top: 98px;
-  height: 100%;
 }
 
 .about-section {
@@ -9,18 +8,22 @@
   justify-content: center;
   align-items: center;
   gap: 117px;
+  flex-wrap: wrap;
   margin-bottom: 100px;
 }
 
 .image-container {
   width: 489px;
   height: 612px;
-
 }
 
 .image-container img {
   border-radius: 0px 300px 300px 300px;
   background: #C4C4C4;
+}
+
+.about-section-text {
+  width: 50%;
 }
 
 .about h1 {
@@ -49,6 +52,38 @@
 
 }
 
+@media screen and (max-width: 450px) {
+  .image-container {
+    width: 189px;
+    height: 312px;
+  }
+
+  .image-container img {
+    width: 189px;
+    height: 312px;
+  }
+
+  .about h1 {
+    font-size: 30px;
+    line-height: 35px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .about p {
+    font-size: 18px;
+  }
+
+  .about-section-text {
+    width: 100%;
+  }
+
+  .about-section {
+    gap: 25px;
+  }
+
+}
+
 .about hr {
   border: 2px solid rgba(255, 255, 255, 0.5);
   transform: rotate(0.14deg);
@@ -59,27 +94,35 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   gap: 116px;
-  height: 568px;
+  /* height: 568px; */
+  /* flex: 1 2 568px; */
 }
 
 .services-text {
-  height: 453px;
-  width: 591px;
+  width: 50%;
 }
 
 .services-card {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   gap: 20px;
   height: 568px;
   width: 490px;
+  /* width: 50%; */
+  /* flex: 2 2 80%; */
 }
 
 
 .services-card-item {
-  width: 490px;
-  height: 76px;
+  min-width: 0;
+  flex: 1 1 50px;
+  max-width: 490px;
+  max-height: 76px;
+  /* width: 490px;
+  height: 76px; */
   padding: 43px;
   background: rgba(255, 255, 255, 0.5);
   box-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
@@ -88,6 +131,7 @@
   justify-content: flex-start;
   align-items: center;
 }
+
 
 .small-image {
   width: 90px;
@@ -111,7 +155,6 @@
   font-weight: 700;
   font-size: 30px;
   line-height: 40px;
-  /* identical to box height */
 
   letter-spacing: 0.3px;
 
@@ -148,6 +191,7 @@
 .services-text-footer {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .services-text-footer h2 {

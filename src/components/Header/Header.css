@@ -1,0 +1,87 @@
+.header {
+  margin: 0 5rem;
+  margin-top: 5rem;
+  text-align: center;
+  width: 100%;
+  position: relative;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.row h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 93px;
+  letter-spacing: 0.3px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.row p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+
+  letter-spacing: 0.3px;
+
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.row span {
+  position: absolute;
+  align-self: flex-start;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+
+  letter-spacing: 27.8px;
+
+  color: rgba(255, 255, 255, 0.3);
+  transform: rotate(-90deg);
+  top: 317px;
+  left: -120px;
+}
+
+.row img {
+  width: 480.41px;
+  height: 547px;
+  align-self: center;
+  margin-top: 48px;
+}
+
+.row-buttons {
+  margin-top: 3rem;
+}
+
+.btn {
+  padding: 15px;
+  height: 50px;
+  background-color: rgb(55, 55, 238);
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn1 {
+  padding: 15px;
+  height: 50px;
+  background-color: aliceblue;
+  color: rgb(55, 55, 238);
+  font-weight: 600;
+  border-radius: 5px;
+  border: none;
+  margin-left: 15px;
+}

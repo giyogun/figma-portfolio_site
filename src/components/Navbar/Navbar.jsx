@@ -1,16 +1,26 @@
 import React from "react";
+
 import "./Navbar.css";
 
 const Navbar = () => {
-  return <div className='navbar'>
-    <div className="navbar-container">
-      <h2>ngrok</h2>
-      <div className="buttons">
-        <button className="login">Login</button>
-        <button className="signup">Sign Up</button>
+  return (
+    <nav className="navbar">
+      <div className="navbar-container">
+        <div className="logo">
+          <div className="logo-main">
+            <span>J</span>
+          </div>
+          <div className="logo-text">Jovanca</div>
+        </div>
+        <div className="nav-links">
+          <li className="nav-links-item">Home</li>
+          <li className="nav-links-item">About</li>
+          <li className="nav-links-item">Services</li>
+          <li className="contact">Hire Me</li>
+        </div>
       </div>
-    </div>
-  </div>;
+    </nav>
+  );
 };
 
 export default Navbar;

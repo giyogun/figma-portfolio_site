@@ -1,27 +1,56 @@
 .navbar {
-  padding: 0 5rem;
+  margin: 0 5rem;
+  /* width: 1196px; */
 }
 
 .navbar-container {
   width: 100%;
-  height: 70px;
+  height: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: blue;
+  padding-top: 20px;
+  /* background-color: blue; */
 }
 
-.navbar-container h2 {
-  margin-top: 0;
-  margin-bottom: 0;
-  align-self: flex-start;
-  color: #fff;
-  margin-left: 5rem;
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
-.buttons {
-  margin-right: 5rem;
-  align-self: flex-start;
+.logo-main {
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  border: 1px solid #fff;
+  text-align: center;
+  /* padding: 5px; */
+}
+
+.logo-main span {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+.logo-text {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  /* align-self: flex-start; */
 }
 
 .login {
@@ -29,16 +58,26 @@
   width: 70px;
   height: 40px;
   background-color: rgb(55, 55, 238);
+  background: transparent;
   color: #fff;
-  border: none;
 }
 
-.signup {
+.nav-links-item {
+  list-style: none;
   padding: 10px;
   width: 90px;
   height: 40px;
   margin-left: 20px;
-  background-color: #fff;
-  color: #111;
+  /* background-color: #fff; */
+  color: #fff;
   border: none;
+}
+
+.contact {
+  border: 1px solid #fff;
+  padding: 10px;
+  background: transparent;
+  color: #fff;
+  list-style: none;
+  margin-left: 10px;
 }

@@ -1,0 +1,174 @@
+.about {
+  margin: 0 5rem;
+  margin-top: 98px;
+  height: 100%;
+}
+
+.about-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 117px;
+  margin-bottom: 100px;
+}
+
+.image-container {
+  width: 489px;
+  height: 612px;
+
+}
+
+.image-container img {
+  border-radius: 0px 300px 300px 300px;
+  background: #C4C4C4;
+}
+
+.about h1 {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 90px;
+
+  letter-spacing: 0.3px;
+
+  color: #FFFFFF;
+}
+
+.about p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 180%;
+  /* or 36px */
+
+  letter-spacing: 0.3px;
+
+  color: rgba(255, 255, 255, 0.5);
+
+}
+
+.about hr {
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  transform: rotate(0.14deg);
+  margin-bottom: 97px;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 116px;
+  height: 568px;
+}
+
+.services-text {
+  height: 453px;
+  width: 591px;
+}
+
+.services-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 568px;
+  width: 490px;
+}
+
+
+.services-card-item {
+  width: 490px;
+  height: 76px;
+  padding: 43px;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.small-image {
+  width: 90px;
+  height: 90px;
+  border-radius: 50px;
+  background-color: #F0C149;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.small-image img {
+  width: 50px;
+  height: 50px;
+}
+
+.project-details h4 {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  /* identical to box height */
+
+  letter-spacing: 0.3px;
+
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.project-details span {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+
+  letter-spacing: 0.3px;
+
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.green {
+  background-color: #E9EDF0;
+}
+
+.green .small-image {
+  background-color: #286F6C;
+  ;
+}
+
+.red .small-image {
+  background-color: #F26440;
+}
+
+.services-text-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.services-text-footer h2 {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 67px;
+
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #FFFFFF;
+}
+
+.services-text-footer p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.hr {
+  margin-top: 100px;
+}
